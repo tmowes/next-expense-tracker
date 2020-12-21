@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=NnUFOWR_V4Y&ab_channel=JavaScriptMastery
+
+dependencies
+yarn add @unform/core @unform/web axios polished react-icons react-is styled-components swr react-hook-form @hookform/resolvers yup framer-motion
+
+yarn add -D typescript @types/react @types/node @babel/core @types/styled-components @types/yup @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-plugin-inline-react-svg babel-plugin-styled-components eslint eslint-config-airbnb eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
+
+yarn add @material-ui/core @material-ui/icons @material-ui/lab @speechly/react-client @speechly/react-ui uuid chart.js react-chartjs-2
+
+warning " > @speechly/react-client@0.0.4" has incorrect peer dependency "react@^16.13.1".
+warning " > @speechly/react-ui@1.1.0" has incorrect peer dependency "react@^16.13.1".
+warning " > @speechly/react-ui@1.1.0" has incorrect peer dependency "react-dom@^16.13.1".
+
+
+
+
+https://youtu.be/NnUFOWR_V4Y?t=5231
+
+1:27:11

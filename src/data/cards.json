@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "href": "/nextjs",
+    "imgSrc": "/img/nextjs.svg",
+    "imgAlt": "nextjs",
+    "layoutId": "nextjs-logo"
+  },
+  {
+    "id": "2",
+    "href": "/tailwind",
+    "imgSrc": "/img/tailwind.svg",
+    "imgAlt": "tailwind",
+    "layoutId": "tailwind-logo"
+  },
+  {
+    "id": "3",
+    "href": "/framermotion",
+    "imgSrc": "/img/framermotion.svg",
+    "imgAlt": "framermotion",
+    "layoutId": "framermotion-logo"
+  }
+]
