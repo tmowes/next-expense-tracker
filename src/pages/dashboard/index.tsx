@@ -3,9 +3,9 @@ import { NextPage } from 'next'
 import Link from 'next/link'
 
 import * as C from '~/components'
-import * as S from './_styles'
+import * as S from '~/styles/pages/dashboard'
 
-import useStyles from './_styles-ui'
+import useStyles from '~/styles/pages/dashboard/_styles-ui'
 
 const Dashboard: NextPage = () => {
   const classes = useStyles()

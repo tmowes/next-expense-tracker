@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import * as C from '~/components'
 import { cards } from '~/data'
-import * as S from './_styles'
+import * as S from '~/styles/pages/nextjs'
 
 const NextJS: NextPage = () => {
   const { imgSrc, imgAlt, layoutId } = cards[0]
