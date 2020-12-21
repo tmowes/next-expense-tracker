@@ -25,7 +25,7 @@ const Dashboard: NextPage = () => {
           spacing={0}
           alignItems="center"
           justify="center"
-          style={{ height: '92vh' }}
+          style={{ height: '92vh', width: '100vw' }}
         >
           <Grid item xs={12} sm={4} className={classes.mobile}>
             <C.Details title="Income" />
