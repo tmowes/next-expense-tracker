@@ -12,15 +12,24 @@ import useStyles from './styles'
 import { MainProps } from './types'
 import Form from './Form'
 import List from './List'
+import { useContextValue } from '~/hooks'
 
 const Main: React.FC<MainProps> = ({ title }) => {
   const classes = useStyles()
+  const [transactions] = useContextValue()
+
+  const balance = transactions.reduce(
+    (acc, curr) =>
+      curr.type === 'Expense' ? acc - curr.amount : acc + curr.amount,
+    0,
+  )
+
   return (
     <Card className={classes.root}>
-      <CardHeader title={title} subtitle="powered by Julius" />
+      <CardHeader title={title} subheader="powered by Julius" />
       <CardContent>
         <Typography align="center" variant="h5">
-          Total Balance $0
+          {`Total Balance $${balance}`}
         </Typography>
         <Typography
           variant="subtitle1"

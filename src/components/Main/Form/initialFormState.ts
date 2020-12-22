@@ -1,6 +1,6 @@
 import { formatDate } from '~/utils'
 
-export const initialFromState = {
+export const initialFormState = {
   type: 'Income',
   category: '',
   amount: 0,

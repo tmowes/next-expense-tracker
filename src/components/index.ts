@@ -6,3 +6,4 @@ export { default as Card } from './Card'
 
 export { default as Details } from './Details'
 export { default as Main } from './Main'
+export { default as Toast } from './Toast'

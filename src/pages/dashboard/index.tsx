@@ -1,4 +1,9 @@
 import { Grid } from '@material-ui/core'
+import {
+  ErrorPanel,
+  PushToTalkButton,
+  PushToTalkButtonContainer,
+} from '@speechly/react-ui'
 import { NextPage } from 'next'
 import Link from 'next/link'
 
@@ -40,6 +45,10 @@ const Dashboard: NextPage = () => {
             <C.Details title="Expense" />
           </Grid>
         </Grid>
+        <PushToTalkButtonContainer>
+          <PushToTalkButton />
+          <ErrorPanel />
+        </PushToTalkButtonContainer>
       </S.Content>
     </S.Container>
   )
