@@ -19,6 +19,9 @@ const Toast: React.FC<ToastProps> = ({ open, setOpen }) => {
 
     setOpen(false)
   }
+  const handleCloseAlert = () => {
+    setOpen(false)
+  }
 
   return (
     <div className={classes.root}>
@@ -29,7 +32,7 @@ const Toast: React.FC<ToastProps> = ({ open, setOpen }) => {
         onClose={handleClose}
       >
         <MuiAlert
-          onClose={handleClose}
+          onClose={handleCloseAlert}
           severity="success"
           elevation={6}
           variant="filled"
